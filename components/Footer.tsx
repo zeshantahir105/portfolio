@@ -17,7 +17,7 @@ export default function Footer() {
                 Muhammad Zeshan Tahir
               </h3>
               <p className="text-gray-400 mb-4">
-                Senior Full Stack Developer specializing in MERN stack and modern web technologies.
+                Full Stack Developer specializing in MERN stack and modern web technologies.
               </p>
               <div className="flex items-center gap-2 text-gray-400">
                 <MapPin className="w-4 h-4 text-blue-400" />

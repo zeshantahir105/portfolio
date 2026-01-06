@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Muhammad Zeshan Tahir - Senior Full Stack Developer',
-  description: 'Senior Full Stack Developer with 4 years of experience in MERN stack, Next.js, NestJS, and cloud technologies.',
+  title: 'Muhammad Zeshan Tahir - Full Stack Developer',
+  description: 'Full Stack Developer with 4 years of experience in MERN stack, Next.js, NestJS, and cloud technologies.',
   keywords: ['Full Stack Developer', 'MERN Stack', 'Next.js', 'React', 'Node.js', 'MongoDB', 'PostgreSQL'],
   authors: [{ name: 'Muhammad Zeshan Tahir' }],
   icons: {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     apple: '/profile.png',
   },
   openGraph: {
-    title: 'Muhammad Zeshan Tahir - Senior Full Stack Developer',
-    description: 'Senior Full Stack Developer specializing in React, Next.js, Node.js, and cloud technologies.',
+    title: 'Muhammad Zeshan Tahir - Full Stack Developer',
+    description: 'Full Stack Developer specializing in React, Next.js, Node.js, and cloud technologies.',
     type: 'website',
   },
 }
