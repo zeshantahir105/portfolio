@@ -88,7 +88,7 @@ export default function WhyWorkWithMe() {
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text mb-2">
-                6+
+                20+
               </div>
               <p className="text-gray-300">Major Projects</p>
             </div>

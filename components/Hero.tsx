@@ -18,7 +18,7 @@ export default function Hero() {
             {/* Title with gradient */}
             <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-slide-up">
               <span className="block text-2xl md:text-3xl font-normal mb-3 mt-8 text-blue-300 ">
-                Senior Full Stack Web Developer
+                Full Stack Web Developer
               </span>
               <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
                 MERN+
@@ -28,7 +28,7 @@ export default function Hero() {
             {/* Introduction */}
             <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed max-w-4xl mx-auto animate-slide-up" style={{ animationDelay: '0.2s' }}>
               <p>
-                I'm <span className="text-white font-semibold">Muhammad Zeshan Tahir</span>, a Senior Full Stack Developer with{' '}
+                I'm <span className="text-white font-semibold">Muhammad Zeshan Tahir</span>, a Full Stack Developer with{' '}
                 <span className="text-blue-400 font-semibold">4 years of experience</span> building scalable, production-ready web applications.
               </p>
               <p>
