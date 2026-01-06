@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   description: 'Senior Full Stack Developer with 4 years of experience in MERN stack, Next.js, NestJS, and cloud technologies.',
   keywords: ['Full Stack Developer', 'MERN Stack', 'Next.js', 'React', 'Node.js', 'MongoDB', 'PostgreSQL'],
   authors: [{ name: 'Muhammad Zeshan Tahir' }],
+  icons: {
+    icon: '/profile.png',
+    apple: '/profile.png',
+  },
   openGraph: {
     title: 'Muhammad Zeshan Tahir - Senior Full Stack Developer',
     description: 'Senior Full Stack Developer specializing in React, Next.js, Node.js, and cloud technologies.',
