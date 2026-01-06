@@ -1,6 +1,6 @@
 'use client'
 
-import { CheckCircle2, Award, MessageSquare, Clock, Users, TrendingUp } from 'lucide-react'
+import { CheckCircle2, Award, MessageSquare, Clock, Users, TrendingUp, Zap } from 'lucide-react'
 
 export default function WhyWorkWithMe() {
   const reasons = [
@@ -33,6 +33,11 @@ export default function WhyWorkWithMe() {
       icon: <TrendingUp className="w-6 h-6" />,
       text: 'Focus on performance & scalability',
       gradient: 'from-pink-500 to-rose-500',
+    },
+    {
+      icon: <Zap className="w-6 h-6" />,
+      text: 'AI-powered workflow with Cursor & Copilot',
+      gradient: 'from-yellow-500 to-amber-500',
     },
   ]
 

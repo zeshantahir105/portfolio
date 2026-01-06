@@ -1,6 +1,6 @@
 'use client'
 
-import { Code2, Server, Database, Shield } from 'lucide-react'
+import { Code2, Server, Database, Shield, Sparkles } from 'lucide-react'
 
 interface SkillCategory {
   icon: React.ReactNode
@@ -49,6 +49,16 @@ export default function Skills() {
         'Clean Architecture',
         'Performance Optimization',
         'Scalable & Secure Systems',
+      ],
+    },
+    {
+      icon: <Sparkles className="w-8 h-8" />,
+      title: 'AI Tools',
+      color: 'from-violet-500 to-fuchsia-500',
+      skills: [
+        'Cursor AI',
+        'GitHub Copilot',
+        'Boosted efficiency & faster delivery',
       ],
     },
   ]
@@ -106,7 +116,7 @@ export default function Skills() {
             <div className="inline-flex flex-wrap justify-center gap-3 px-8 py-4 bg-white rounded-2xl shadow-lg">
               {[
                 'React', 'Next.js', 'Node.js', 'NestJS', 'TypeScript',
-                'MongoDB', 'PostgreSQL', 'GraphQL', 'AWS', 'Docker'
+                'MongoDB', 'PostgreSQL', 'GraphQL', 'AWS', 'Docker', 'Cursor AI', 'GitHub Copilot'
               ].map((tech, index) => (
                 <span
                   key={index}
